@@ -20,3 +20,10 @@ attendees.each do |attendees|
 end
 return welcome
 end
+
+
+def printer
+  
+  
+end
+
