@@ -22,7 +22,7 @@ return welcome
 end
 
 
-def printer()
+def printer(badges)
 
 
 end
