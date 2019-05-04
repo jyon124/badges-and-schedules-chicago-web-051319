@@ -27,8 +27,9 @@ def printer(attendees)
     creator.each do |times|
     puts times
     end
+
     result = assign_rooms(attendees)
     result.each do |times|
     puts times
     end
-end 
+end
