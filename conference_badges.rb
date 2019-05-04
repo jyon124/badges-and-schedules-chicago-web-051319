@@ -22,7 +22,7 @@ return welcome
 end
 
 
-def printer(badges)
+def printer
 batch_badge_creator
 assign_rooms
 
