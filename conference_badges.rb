@@ -22,8 +22,13 @@ return welcome
 end
 
 
-def printer(inputOne)
-  batch_badge_creator(inputOne)
-  assign_rooms(inputOne)
-
-end
+def printer(attendees) 
+    creator = batch_badge_creator(attendees) 
+    creator.each do |times| 
+    puts times
+    end 
+    result = assign_rooms(attendees) 
+    result.each do |times| 
+    puts times
+    end 
+end 
