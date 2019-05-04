@@ -22,8 +22,8 @@ return welcome
 end
 
 
-def printer(attendees)
+def printer(inputOne)
+  batch_badge_creator(inputOne)
+  assign_rooms(inputOne)
 
-  batch_badge_creator(attendees)
-  assign_rooms(attendees)
 end
